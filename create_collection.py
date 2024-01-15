@@ -31,7 +31,7 @@ def mongoimport(csv_path, collection):
     return collection.count_documents({})
 
 
-path = "/Users/fmerwick/Downloads/test.csv"
+path = "/Users/fmerwick/Downloads/Research database - repo.csv"
 
 db = mongoimport(path, collection)
 print(db)
